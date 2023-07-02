@@ -70,14 +70,14 @@ The `get` method allows you to modify individual elements of the data and updati
 
 ### Declaration 1
 ```C++
-const _Type get()
+const _Type get() const
 ```
 
 Returns the results of type `_Type` from the first to last index.
 
 ### Declaration 2
 ```C++
-const _Type get(const int& _lindex, const int& _rindex)
+const _Type get(const int& _lindex, const int& _rindex) const
 ```
 
 Returns the results of type `_Type` from index `_lindex` to index `_rindex`.
