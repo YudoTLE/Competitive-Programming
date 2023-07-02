@@ -86,3 +86,14 @@ Returns the results of type `_Type` from index `_lindex` to index `_rindex`.
 |----------|-|
 |_lindex   |The left index of the element.|
 |_rindex   |The right index of the element.|
+
+
+## Others
+|Methods  |Description|
+|---------|-----------|
+|size()   |Returns the number of leaf of the tree|
+|height() |Returns the height of the tree|
+|begin()  |Returns the begin iterator of the tree|
+|end()    |Returns the end iterator of the tree|
+|rbegin() |Returns the reverse begin iterator of the tree|
+|rend()   |Returns the reverse end iterator of the tree|
