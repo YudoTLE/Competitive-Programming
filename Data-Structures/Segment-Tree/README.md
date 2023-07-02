@@ -6,7 +6,8 @@ Segment Tree is a versatile data structure used for various range query operatio
 
 The constructor of the segment_tree class accepts different types of data sources, including iterators, containers, or plain arrays. Additionally, it allows specifying a custom base index for the data source.
 
-## Update Query `update(const int& _index, const _Type& _new_value)`
+## Update Query 
+### `update(const int& _index, const _Type& _new_value)`
 
 
 The `update` method 
