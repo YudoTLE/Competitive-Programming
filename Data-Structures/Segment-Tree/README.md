@@ -49,7 +49,7 @@ Accepts primitive array as the parameter, followed by custom function, and base 
 |_base_index|Specifies the base index of the data elements. By default, it is set to 0, indicating that the data is zero-based indexed.|
 
 
-## Update
+## Updating Query
 The `update` method allows you to modify individual elements of the data and updating the corresponding values in **O(log(n))** time.
 
 ### Declaration
@@ -65,7 +65,7 @@ Modify element at index `_index` to `_new_val`
 |_new_val  |The new value that will be asigned to the element at index `_index`.| 
 
 
-## Get 
+## Getting Result from Query
 The `get` method allows you to modify individual elements of the data and updating the corresponding values in the **O(log(n))** time.
 
 ### Declaration 1
@@ -88,7 +88,7 @@ Returns the results of type `_Type` from index `_lindex` to index `_rindex`.
 |_rindex   |The right index of the element.|
 
 
-## Others
+## Other Methods
 |Methods  |Description|
 |---------|-----------|
 |size()   |Returns the number of leaf of the tree|
