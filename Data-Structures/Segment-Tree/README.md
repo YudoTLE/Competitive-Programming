@@ -9,5 +9,4 @@ The constructor of the segment_tree class accepts different types of data source
 ## Update Query 
 `update(const int& _index, const _Type& _new_value)`
 
-
-The `update` method 
+The `update` method allows modifying individual elements of the data and updating the corresponding values in the Segment Tree.
