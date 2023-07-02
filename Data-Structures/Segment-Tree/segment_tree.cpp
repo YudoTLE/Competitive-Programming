@@ -48,7 +48,11 @@ public:
         : segment_tree(_container, _container + _Size, _func, _base_index)
     {}
     
- 
+    const _Type get(const int& _index) const
+    {
+        return m_data[0][0];
+    }
+
     const _Type get(const int& _lindex, const int& _rindex) const
     {
         int l = _lindex - m_base_index;
