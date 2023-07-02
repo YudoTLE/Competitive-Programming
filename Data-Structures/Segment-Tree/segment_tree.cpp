@@ -72,7 +72,8 @@ public:
         }
         return m_func(left, right);
     }
- 
+
+
     void update(const int &_index, const _Type& _new_value)
     {
         int m = _index - m_base_index;
